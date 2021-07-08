@@ -159,7 +159,10 @@ extra_css:
 ## Page tree
 nav:
     - Home: index.md
-    - Introduzione: workshop_tfiandaca.md
+    - Introduzione: intro.md
+    - QGIS e il WMS AdE: qgis_ade.md
     - WMS Catasto AdE in QGIS: wms_catasto.md
-   
+    - Risultati evento: risultati.md
+    - Cosa c&rsquo;è in questo repo: repo.md
+    - Contatti: contatti.md 
   
