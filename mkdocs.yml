@@ -166,5 +166,6 @@ nav:
             - WMS Catasto AdE in QGIS: wms_catasto.md
             - Cosa c&rsquo;è in questo repo: repo.md
             - Risultati evento: risultati.md
-            - Contatti: contatti.md 
+            - Contatti: contatti.md
+    - OpenDataSicilia: ods.md        
   
