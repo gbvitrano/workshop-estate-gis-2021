@@ -77,7 +77,7 @@ theme:
     code: Roboto Mono
   favicon: imgs/favicon.ico
   icon:
-  logo: fontawesome/solid/book-open.svg
+  logo: imgs/book-reader.svg
 
 plugins:
 - search
