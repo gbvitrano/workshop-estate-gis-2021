@@ -1,4 +1,4 @@
-# Workshop estate GIS 2021 UNIPD
+# Dagli OpenData all’OpenSource: Lavorare in QGIG con le mappe catastali
 
 Per domande clicca su PARTECIPA: <br>
 [![](https://img.shields.io/badge/discussioni-partecipa-brightgreen?style=for-the-badge&logo=github)](https://github.com/pigreco/workshop-estate-gis-2021/discussions)
