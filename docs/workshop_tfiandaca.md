@@ -3,59 +3,6 @@
 Per domande clicca su PARTECIPA: <br>
 [![](https://img.shields.io/badge/discussioni-partecipa-brightgreen?style=for-the-badge&logo=github)](https://github.com/pigreco/workshop-estate-gis-2021/discussions)
 
----
-
-**INDICE**
-
-<!-- TOC -->
-
-- [Workshop estate GIS 2021 UNIPD](#workshop-estate-gis-2021-unipd)
-  - [Titolo](#titolo)
-  - [Relatori](#relatori)
-  - [Data, luogo e durata](#data-luogo-e-durata)
-  - [Piattaforme e Software](#piattaforme-e-software)
-  - [Programma](#programma)
-  - [QGIS e il WMS AdE](#qgis-e-il-wms-ade)
-  - [link utili](#link-utili)
-  - [Contatti](#contatti)
-    - [Andrea Borruso](#andrea-borruso)
-    - [Totò Fiandaca](#totò-fiandaca)
-  - [Risultati evento](#risultati-evento)
-  - [Domande finali](#domande-finali)
-- [Workshop WMS Catasto AdE in QGIS](#workshop-wms-catasto-ade-in-qgis)
-  - [Decorazione Etichetta Titolo](#decorazione-etichetta-titolo)
-    - [Espressione utilizzata](#espressione-utilizzata)
-  - [Servizio WMS](#servizio-wms)
-    - [Come aggiungere il Servizio WMS a QGIS](#come-aggiungere-il-servizio-wms-a-qgis)
-    - [Quali dati espone il servizio WMS](#quali-dati-espone-il-servizio-wms)
-    - [SR disponibili per il WMS](#sr-disponibili-per-il-wms)
-    - [Layer disponibili nel WMS](#layer-disponibili-nel-wms)
-  - [Creare un nuovo GeoPackage](#creare-un-nuovo-geopackage)
-  - [Impostazioni Progetto](#impostazioni-progetto)
-  - [Espressione personalizzata](#espressione-personalizzata)
-  - [campi virtuali](#campi-virtuali)
-    - [casi possibili](#casi-possibili)
-  - [Digitalizzazione particelle](#digitalizzazione-particelle)
-    - [Plugin GIMP Selection Feature](#plugin-gimp-selection-feature)
-      - [Osservazioni](#osservazioni)
-      - [Workflow](#workflow)
-    - [Plugin Magic Wand](#plugin-magic-wand)
-      - [Workflow](#workflow-1)
-    - [estrarre dati dai poligoni](#estrarre-dati-dai-poligoni)
-- [Cosa occorre](#cosa-occorre)
-  - [Software da installare](#software-da-installare)
-  - [Plugin da installare](#plugin-da-installare)
-- [Caratteristiche utilizzate nel progetto](#caratteristiche-utilizzate-nel-progetto)
-- [Riferimenti utili](#riferimenti-utili)
-- [Cosa c'è in questo repo](#cosa-cè-in-questo-repo)
-- [Video demo](#video-demo)
-- [Licenza](#licenza)
-  - [Prossimi eventi](#prossimi-eventi)
-
-<!-- /TOC -->
-
----
-
 ## Titolo
 
 **TITOLO**: <br> Il WMS del catasto dell'Agenzia delle Entrate: licenza, come usarlo in [QGIS](https://qgis.org/it/site/), come aggiungere il servizio WMS, come estrarre i dati e digitalizzare le particelle.
