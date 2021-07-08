@@ -1,4 +1,4 @@
-### Risultati evento
+# Risultati evento
 
 - **430** iscritti
 - **246** max partecipanti (ZOOM + Facebook)

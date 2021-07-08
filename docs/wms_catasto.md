@@ -1,6 +1,4 @@
-# Workshop WMS Catasto AdE in QGIS
-
-## Decorazione Etichetta Titolo
+# Decorazione Etichetta Titolo
 
 Creare un nuovo progetto QGIS e aggiungere Decorazione Titolo
 

@@ -1,4 +1,4 @@
-## QGIS e il WMS AdE
+# QGIS e il WMS AdE
 
 <p align="center"><a href="https://qgis.org/it/site/" target="_blank"><img src="../imgs/WMS1.png" width="700" title="QGIS e WMS Catasto AdE in CC BY 4.0"></a></p>
 
