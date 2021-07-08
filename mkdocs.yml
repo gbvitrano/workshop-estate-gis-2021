@@ -159,11 +159,12 @@ extra_css:
 ## Page tree
 nav:
     - Home: index.md
-    - Dagli OpenData all&rsquo;OpenSource&#58; Lavorare in QGIG con le mappe catastali:
-        - Introduzione: intro.md
-        - QGIS e il WMS AdE: qgis_ade.md
-        - WMS Catasto AdE in QGIS: wms_catasto.md
-        - Cosa c&rsquo;è in questo repo: repo.md
-        - Risultati evento: risultati.md
-        - Contatti: contatti.md 
+    - Dagli OpenData all&rsquo;OpenSource:
+        - Lavorare in QGIG con le mappe catastali:
+            - Introduzione: intro.md
+            - QGIS e il WMS AdE: qgis_ade.md
+            - WMS Catasto AdE in QGIS: wms_catasto.md
+            - Cosa c&rsquo;è in questo repo: repo.md
+            - Risultati evento: risultati.md
+            - Contatti: contatti.md 
   
