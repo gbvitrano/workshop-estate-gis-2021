@@ -10944,11 +10944,11 @@ p {
   }
 }
 header.masthead {
-  padding-top: 6.5rem;
+  padding-top: 7.5rem;
   padding-bottom: 3rem;
   text-align: center;
   color: #fff;
- /*background-image:url(../imgs/EstateGISopendata_website.png);*/
+ background-image:url(../imgs/EstateGISopendata_website.png);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
