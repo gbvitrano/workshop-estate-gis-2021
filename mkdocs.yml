@@ -102,7 +102,7 @@ plugins:
     cover_page_template: "docs/pdf/cover_page.tpl"
     path_to_pdf: "MaterialMkDocs-gb.pdf"
     exclude:
-        - index.md
+    
 - rss:
     abstract_chars_count: 160
     date_from_meta:
