@@ -10944,8 +10944,8 @@ p {
   }
 }
 header.masthead {
-  padding-top: 7.5rem;
-  padding-bottom: 3rem;
+  padding-top: 8rem;
+  padding-bottom: 4rem;
   text-align: center;
   color: #fff;
  background-image:url(../imgs/EstateGISopendata_website.png);
@@ -10971,8 +10971,8 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 8rem;
-    padding-bottom: 6.5rem;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
@@ -11050,8 +11050,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 } 
 	/* Sfondo QGIS*/
 	
-	.md-main { /*background-image:url(../img/qsfondo_800.png)!important; background-repeat: no-repeat!important;  background-position: center center!important;
-    background-size: 80%!important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important;*/ background: #fff!important;}
+	.md-main { background-image:url(../imgs/qsfondo_800.png)!important; background-repeat: no-repeat!important;  background-position: center center!important;
+    background-size: 80%!important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important; /*background: #fff!important;*/}
 	
 	.md-content {display: none!important;}
 	
