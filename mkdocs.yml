@@ -77,7 +77,7 @@ theme:
     code: Roboto Mono
   favicon: imgs/favicon.ico
   icon:
- # logo: img/gb_128.png
+  logo: img/gb_128.png
 
 plugins:
 - search
