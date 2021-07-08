@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Workshop estate GIS 2021 UNIPD
 
 Per domande clicca su PARTECIPA: <br>
