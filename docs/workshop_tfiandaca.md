@@ -57,14 +57,10 @@ Per domande clicca su PARTECIPA: <br>
    10. quali plugin usare per estrarre le particelle;
 
 
-[↑ torna su ↑](#workshop-estate-gis-2021-unipd)
-
 ## QGIS e il WMS AdE
 
 <p align="center"><a href="https://qgis.org/it/site/" target="_blank"><img src="../imgs/WMS1.png" width="700" title="QGIS e WMS Catasto AdE in CC BY 4.0"></a></p>
 
-
-[↑ torna su ↑](#workshop-estate-gis-2020-unipd)
 
 ## link utili
 
@@ -99,15 +95,13 @@ Per domande clicca su PARTECIPA: <br>
 - **246** max partecipanti (ZOOM + Facebook)
 - diretta Facebook : <https://fb.watch/60JOKALWuj/>
 
-![](./imgs/screenshot/photo_2021-06-09_19-42-36.jpg)
+![](../imgs/screenshot/photo_2021-06-09_19-42-36.jpg)
 
-![](./imgs/screenshot/Image5.png)
+![](../imgs/screenshot/Image5.png)
 
-![](./imgs/screenshot/photo_2021-06-11_12-03-56.jpg)
+![](../imgs/screenshot/photo_2021-06-11_12-03-56.jpg)
 
-![](.imgs/../imgs/screenshot/photo_2021-06-11_12-04-26.jpg)
-
-[↑ torna su ↑](#workshop-estate-gis-2021-unipd)
+![](../imgs/screenshot/photo_2021-06-11_12-04-26.jpg)
 
 ## Domande finali
 
@@ -132,9 +126,6 @@ Per domande clicca su PARTECIPA: <br>
 10. **Federico Micucci chiede:** Facendo clic su “Send Image” da errore “impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione” Cosa significa?
     1.  Occorrono altre info per poter rispondere.
 
-[↑ torna su ↑](#workshop-estate-gis-2021-unipd)
-
-
 ---
 
 # Workshop WMS Catasto AdE in QGIS
@@ -153,7 +144,7 @@ WMS Catasto Agenzia delle Entrate - CC BY 4.0 - [% @map_crs ||': '|| @map_crs_de
 
 <p align="center"><a href="https://qgis.org/it/site/" target="_blank"><img src="../imgs/titolo.png" width="500" title="Decorazione Etichetta Titolo"></a></p>
 
-![](imgs/dec_eti_titolo.png)
+![](../imgs/dec_eti_titolo.png)
 
 ## Servizio WMS
 
@@ -162,7 +153,7 @@ WMS Catasto Agenzia delle Entrate - CC BY 4.0 - [% @map_crs ||': '|| @map_crs_de
 1. URL: `https://wms.cartografia.agenziaentrate.gov.it/inspire/wms/ows01.php`
 2. Gestione delle Sorgentidati | WMS/WMTS | Nuovo :
 
-![](imgs/wms_01.png)
+![](../imgs/wms_01.png)
 
 <https://geoportale.cartografia.agenziaentrate.gov.it/age-inspire/srv/ita/catalog.search;jsessionid=2D812F23AA0C878D6F2DE54F9CE259CB.node1#/home>
 
@@ -196,7 +187,7 @@ EPSG:25832  | ETRS89 / UTM zone 32N         |  Europe between 06°E and 12°E  |
 EPSG:25833  | ETRS89 / UTM zone 33N         |  Europe between 12°E and 18°E  | metre
 EPSG:25834  | ETRS89 / UTM zone 34N         |  Europe between 18°E and 24°E  | metre
 
-[↑ torna su ↑](#workshop-estate-gis-2021-unipd)
+
 
 ### Layer disponibili nel WMS
 
@@ -211,7 +202,7 @@ fabbricati | Fabbricati | 1:5.000 | n.d.
 vestizione | Vestizione | 1:2.000 | n.d.
 copyright | Copyright(c) |
 
-[↑ torna su ↑](#workshop-estate-gis-2021-unipd)
+
 
 ## Creare un nuovo GeoPackage
 
@@ -240,8 +231,6 @@ NB: il GeoPackage creerà automaticamente il campo `fid`, tutti gli altri campi 
    2. vestizione;
    3. copyright
 6. occhio alla scala di visualizzazione del layer;
-
-[↑ torna su ↑](#workshop-estate-gis-2021-unipd)
 
 ## Espressione personalizzata
 
@@ -293,7 +282,7 @@ la funzione personalizzata nel Gruppo Custom del field calc:
 
 <p align="center"><a href="https://qgis.org/it/site/" target="_blank"><img src="../imgs/field_calc.png" width="600" title="Gruppo Custom - Field Calc"></a></p>
 
-[↑ torna su ↑](#workshop-estate-gis-2021-unipd)
+
 
 ## campi virtuali
 
@@ -361,7 +350,7 @@ regexp_replace(  "catasto" ,'^(.+)\\.(.+)\\.(.+)\\.(.+)\\.(.+)$', '\\5')
 
 <p align="center"><a href="https://qgis.org/it/site/" target="_blank"><img src="https://i.imgur.com/KGi8uCK.png" width="700" title="Tabella degli attributi"></a></p>
 
-[↑ torna su ↑](#workshop-estate-gis-2021-unipd)
+
 
 ## Digitalizzazione particelle
 
@@ -420,8 +409,6 @@ Per maggiori info: <https://github.com/lmotta/gimpselectionfeature_plugin/wiki>
 
 NB: il poligono che restituisce ha lo stesso EPSG del Progetto.
 
-[↑ torna su ↑](#workshop-estate-gis-2021-unipd)
-
 ### estrarre dati dai poligoni
 
 nel caso di poligoni (che hanno un EPSG diversoda quello del WMS):
@@ -452,8 +439,6 @@ regexp_replace(@fp ,'^(.+)\\.(.+)\\.(.+)\\.(.+)_(.+)\\.(.+)$', '\\5/\\6')
 			)
 ```
 
-[↑ torna su ↑](#workshop-estate-gis-2021-unipd)
-
 # Cosa occorre
 
 Software con caratteristiche minime per seguire con profitto il workshop
@@ -469,7 +454,6 @@ Software con caratteristiche minime per seguire con profitto il workshop
 2. [Magic Wand](https://plugins.qgis.org/plugins/MagicWand-master/) <img src = "../imgs/plugin_magic.png" width =15>;
 3. [Nominatim Locator Filter](https://plugins.qgis.org/plugins/nominatim_locator_filter/) <img src = "https://raw.githubusercontent.com/rduivenvoorde/nominatim_locator_filter/master/icons/icon.svg" width =15>
 
-[↑ torna su ↑](#workshop-estate-gis-2021-unipd)
 
 # Caratteristiche utilizzate nel progetto
 
@@ -482,8 +466,6 @@ Software con caratteristiche minime per seguire con profitto il workshop
 7. GIMP;
 8. Etichette con funzione custom.
 9. Decorazioni: Copyright, Immagine, Etichetta Titolo.
-
-[↑ torna su ↑](#workshop-estate-gis-2021-unipd)
 
 # Riferimenti utili
 
@@ -501,8 +483,6 @@ Software con caratteristiche minime per seguire con profitto il workshop
 - **OpenDataSicilia** : <http://opendatasicilia.it/>
 - **Blog Post di Andrea Borruso** : <https://medium.com/tantotanto/le-mappa-castali-diventano-finalmente-utilizzabili-821db2f84533>
 
-[↑ torna su ↑](#workshop-estate-gis-2021-unipd)
-
 # Cosa c'è in questo repo
 
 - cartella `imgs` contiene le immagini utilizzate nel progetto .qgs;
@@ -512,8 +492,6 @@ Software con caratteristiche minime per seguire con profitto il workshop
   - il geopackage contine anche il progetto (`catasto_wms`) che fa uso della tabella `catasto`; la tabella `particella` è vuota, pronta all'uso;
 - file `license` è il file che definisce la licenza del repository;
 - file `README.md` è questo file, con le info.
-
-[↑ torna su ↑](#workshop-estate-gis-2021-unipd)
 
 # Video demo
 
@@ -525,8 +503,6 @@ Video 1 | Video 2 | Video 3 | Video 4
 
 **CC BY 4.0** - <https://creativecommons.org/licenses/by/4.0/deed.it>
 
-[↑ torna su ↑](#workshop-estate-gis-2021-unipd)
-
 ## Prossimi eventi
 
-![](imgs/locandine/programma.png)
+![](../imgs/locandine/programma.png)
