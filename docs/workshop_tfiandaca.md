@@ -1,9 +1,3 @@
----
-hide:
-  - navigation
-  - toc
----
-
 # Workshop estate GIS 2021 UNIPD
 
 Per domande clicca su PARTECIPA: <br>
@@ -15,7 +9,7 @@ Per domande clicca su PARTECIPA: <br>
 
 **DESCRIZIONE**: <br> Obiettivo di questo workshop è quello di evidenziare le potenzialità delle analisi geografiche usando **opendata** e software **Open Source**. Realizzeremo un progetto **QGIS** utilizzando, come fonte dei dati, il WMS dell'AdE e vedremo come aggiungere il servizio WMS, come estrarre i dati esposti usando il filed calc, e infine come digitalizzare velocemente le particelle catastali usando vari plugin.
 
-<p align="center"><a href="https://www.mastergiscience.it/2021/05/09/estate-gis-2021/" target="_blank"><img src="imgs/EstateGISopendata_website.png" width="700" title="EstateGIS2021"></a></p>
+<p align="center"><a href="https://www.mastergiscience.it/2021/05/09/estate-gis-2021/" target="_blank"><img src="../imgs/EstateGISopendata_website.png" width="700" title="EstateGIS2021"></a></p>
 
 ---
 
@@ -26,7 +20,7 @@ Per domande clicca su PARTECIPA: <br>
 
 - 🧔 [**Andrea BORRUSO**](https://twitter.com/aborruso) <br>(Membro [OpenDataSicilia](http://opendatasicilia.it/) (2014), Presidente [onData](https://ondata.it/) (2015))
 
-<!--<p align="center"><a href="" target="_blank"><img src="imgs/loghi_aborruso.png" width="600" title="Totò FIANDACA"></a></p>-->
+<!--<p align="center"><a href="" target="_blank"><img src="../imgs/loghi_aborruso.png" width="600" title="Totò FIANDACA"></a></p>-->
 
 - 👨‍🦲 **Totò FIANDACA** <br>(Membro [OpenDataSicilia](http://opendatasicilia.it/) (2014) , Membro [QGIS Italia](http://qgis.it/) (2015), Socio [GFOSS.it](https://gfoss.it/) (2017), Membro [QGIS organization](https://github.com/qgis) (2020))
 
@@ -40,8 +34,8 @@ Per domande clicca su PARTECIPA: <br>
 
 - [ZOOM](https://zoom.us/) - per diretta web
 - Windows 10 64b - come SO
-- [`QGIS 3.16 Hannover`](https://qgis.org/it/site/) <img src = "imgs/qgis-icon32.png" width =15> e Plugin <img src = "imgs/plugin_gimp.png" width =15>[`Gimp Selection feature`](https://github.com/lmotta/gimpselectionfeature_plugin/wiki) e <img src = "imgs/plugin_magic.png" width =15>[`Magic Wand`](https://plugins.qgis.org/plugins/MagicWand-master/)
-- GIMP 2.10 <img src = "imgs/gimp_logo.png" width =15>
+- [`QGIS 3.16 Hannover`](https://qgis.org/it/site/) <img src = "../imgs/qgis-icon32.png" width =15> e Plugin <img src = "../imgs/plugin_gimp.png" width =15>[`Gimp Selection feature`](https://github.com/lmotta/gimpselectionfeature_plugin/wiki) e <img src = "../imgs/plugin_magic.png" width =15>[`Magic Wand`](https://plugins.qgis.org/plugins/MagicWand-master/)
+- GIMP 2.10 <img src = "../imgs/gimp_logo.png" width =15>
 
 ## Programma
 
@@ -67,7 +61,7 @@ Per domande clicca su PARTECIPA: <br>
 
 ## QGIS e il WMS AdE
 
-<p align="center"><a href="https://qgis.org/it/site/" target="_blank"><img src="imgs/WMS1.png" width="700" title="QGIS e WMS Catasto AdE in CC BY 4.0"></a></p>
+<p align="center"><a href="https://qgis.org/it/site/" target="_blank"><img src="../imgs/WMS1.png" width="700" title="QGIS e WMS Catasto AdE in CC BY 4.0"></a></p>
 
 
 [↑ torna su ↑](#workshop-estate-gis-2020-unipd)
@@ -157,7 +151,7 @@ espressione utilizzata: (Menu: Visualizza | Decorazioni | Etichetta Titolo ...)
 WMS Catasto Agenzia delle Entrate - CC BY 4.0 - [% @map_crs ||': '|| @map_crs_description %]
 ```
 
-<p align="center"><a href="https://qgis.org/it/site/" target="_blank"><img src="imgs/titolo.png" width="500" title="Decorazione Etichetta Titolo"></a></p>
+<p align="center"><a href="https://qgis.org/it/site/" target="_blank"><img src="../imgs/titolo.png" width="500" title="Decorazione Etichetta Titolo"></a></p>
 
 ![](imgs/dec_eti_titolo.png)
 
@@ -225,7 +219,7 @@ copyright | Copyright(c) |
 
 Per creare velocemente un nuovo **GeoPackage**, digitare `Ctrl+Shift+N`, altrimenti dal _Menu | Crea Vettore | Nuovo Layer GeoPackage_
 
-<p align="center"><a href="https://qgis.org/it/site/" target="_blank"><img src="imgs/gpkg.png" width="400" title="Nuovo Layer GeoPackage"></a></p>
+<p align="center"><a href="https://qgis.org/it/site/" target="_blank"><img src="../imgs/gpkg.png" width="400" title="Nuovo Layer GeoPackage"></a></p>
 
 1. definire il percorso e nome del GeoPackage;
 2. definire il nome della tabella (`catasto`);
@@ -293,11 +287,11 @@ file da salvare nella cartella del profilo corrente: `C:\Users\nomeUtente\AppDat
 
 raggiungibile da : Menu | Impostazioni | Profilo utente | Apri la cartella del profilo attivo
 
-<p align="center"><a href="https://qgis.org/it/site/" target="_blank"><img src="imgs/profilo_utente.png" width="600" title="Impostazioni | Profilo"></a></p>
+<p align="center"><a href="https://qgis.org/it/site/" target="_blank"><img src="../imgs/profilo_utente.png" width="600" title="Impostazioni | Profilo"></a></p>
 
 la funzione personalizzata nel Gruppo Custom del field calc:
 
-<p align="center"><a href="https://qgis.org/it/site/" target="_blank"><img src="imgs/field_calc.png" width="600" title="Gruppo Custom - Field Calc"></a></p>
+<p align="center"><a href="https://qgis.org/it/site/" target="_blank"><img src="../imgs/field_calc.png" width="600" title="Gruppo Custom - Field Calc"></a></p>
 
 [↑ torna su ↑](#workshop-estate-gis-2021-unipd)
 
@@ -376,7 +370,7 @@ regexp_replace(  "catasto" ,'^(.+)\\.(.+)\\.(.+)\\.(.+)\\.(.+)$', '\\5')
 - **GIMP**: <https://www.gimp.org/>
 - **Plugin**: <https://plugins.qgis.org/plugins/gimpselectionfeature_plugin/> 
 
-<img src = "imgs/plugin_gimp.png" width =30>
+<img src = "../imgs/plugin_gimp.png" width =30>
 
 #### Osservazioni
 
@@ -415,7 +409,7 @@ Per maggiori info: <https://github.com/lmotta/gimpselectionfeature_plugin/wiki>
 
 - <https://plugins.qgis.org/plugins/MagicWand-master/>
 
-<img src = "imgs/plugin_magic.png" width =30>
+<img src = "../imgs/plugin_magic.png" width =30>
 
 #### Workflow
 
@@ -466,13 +460,13 @@ Software con caratteristiche minime per seguire con profitto il workshop
 
 ## Software da installare
 
-1. [QGIS 3.16 Hannover](https://qgis.org/it/site/) (o maggiore) <img src = "imgs/qgis-icon32.png" width =15>;
-2. [GIMP 2.10](https://www.gimp.org/) (attualmente GIMP 2.10.24) <img src = "imgs/gimp_logo.png" width =15>;
+1. [QGIS 3.16 Hannover](https://qgis.org/it/site/) (o maggiore) <img src = "../imgs/qgis-icon32.png" width =15>;
+2. [GIMP 2.10](https://www.gimp.org/) (attualmente GIMP 2.10.24) <img src = "../imgs/gimp_logo.png" width =15>;
 
 ##  Plugin da installare
 
-1. [GIMP Selection Feature](https://plugins.qgis.org/plugins/gimpselectionfeature_plugin/) <img src = "imgs/plugin_gimp.png" width =15>;
-2. [Magic Wand](https://plugins.qgis.org/plugins/MagicWand-master/) <img src = "imgs/plugin_magic.png" width =15>;
+1. [GIMP Selection Feature](https://plugins.qgis.org/plugins/gimpselectionfeature_plugin/) <img src = "../imgs/plugin_gimp.png" width =15>;
+2. [Magic Wand](https://plugins.qgis.org/plugins/MagicWand-master/) <img src = "../imgs/plugin_magic.png" width =15>;
 3. [Nominatim Locator Filter](https://plugins.qgis.org/plugins/nominatim_locator_filter/) <img src = "https://raw.githubusercontent.com/rduivenvoorde/nominatim_locator_filter/master/icons/icon.svg" width =15>
 
 [↑ torna su ↑](#workshop-estate-gis-2021-unipd)

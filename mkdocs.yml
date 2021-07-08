@@ -75,7 +75,7 @@ theme:
   font:
     text: Lato
     code: Roboto Mono
-  favicon: img/favicon.ico
+  favicon: imgs/favicon.ico
   icon:
   logo: img/gb_128.png
 
