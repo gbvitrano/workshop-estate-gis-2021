@@ -1,7 +1,7 @@
 ## Project information
 site_name: Workshop estate GIS 2021 UNIPD
 site_url: https://github.com/gbvitrano/workshop-estate-gis-2021#piattaforme-e-software
-site_description: Workshop estate GIS 2021 UNIPD
+site_description: Dagli OpenData all&rsquo;OpenSource: Lavorare in QGIG con le mappe catastali
 site_author: Salvatorew Fiandaca
 
 ## Repository
@@ -77,7 +77,7 @@ theme:
     code: Roboto Mono
   favicon: imgs/favicon.ico
   icon:
-  logo: img/gb_128.png
+  logo: logo
 
 plugins:
 - search
