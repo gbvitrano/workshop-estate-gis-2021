@@ -86,12 +86,12 @@ plugins:
 # - img2fig 
 - print-site:
     add_to_navigation: false
-    print_page_title: 'Manuale pdf'
+    print_page_title: 'Stampa il documento in pdf'
     add_print_site_banner: true
     print_site_banner_template: "docs/pdf/banner.tpl"
     # Table of contents
     add_table_of_contents: true
-    toc_title: 'MaterialMkDocs formato PDF'
+    toc_title: 'Workshop estate GIS 2021 UNIPD | Dagli OpenData all’OpenSource: Lavorare in QGIG con le mappe catastali'
     toc_depth: 6
     # Content-related
     add_full_urls: true
