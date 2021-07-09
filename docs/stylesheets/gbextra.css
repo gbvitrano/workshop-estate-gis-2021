@@ -248,7 +248,26 @@ border: 1px solid rgba(0,0,0,0.2);
 -webkit-border-radius: 6px;
 max-height:100px;
 }  
-  
+ 
+.scroll {
+  width: 20%;
+  height: 100px;
+  border: 1px solid grey;
+  overflow: scroll;
+  display: inline-block;
+}
+.scroll-color-auto {
+  scrollbar-color: auto;
+}
+.scroll-color-dark {
+  scrollbar-color: dark;
+}
+.scroll-color-light {
+  scrollbar-color: light;
+}
+.scroll-color-colors {
+  scrollbar-color: orange lightyellow;
+} 
   
 /* rettangolo info stampa pdf */  
 #print-site-banner {border-color: #ff0000!important; border-radius: 10px!important; }
