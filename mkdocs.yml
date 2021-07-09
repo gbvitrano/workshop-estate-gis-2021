@@ -38,7 +38,7 @@ extra:
       name: Feed RSS
     - icon: fontawesome/solid/file-pdf
       link: ../Dagli_OpenData_all_OpenSource_ Lavorare_in_QGIG_con_le_mappe_catastali.pdf
-      name: Scarica il file PDF
+      name: Scarica il file PDF (5.4 mb)
   analytics:
     provider: google
     property: UA-122084242-1
