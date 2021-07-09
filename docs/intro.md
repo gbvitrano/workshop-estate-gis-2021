@@ -53,4 +53,13 @@ Per domande clicca su PARTECIPA: <br>
    8. come creare/usare espressioni personalizzate;
    9.  come digitalizzare le particelle in modo veloce;
    10. quali plugin usare per estrarre le particelle;
+   11. come fare una semplice interrogare del WMS in QGIS;
+   12. quali dati espone il WMS;
+   13. come estrarre i dati esposti dal WMS;
+   14. come creare/usare espressioni personalizzate;
+   15. come digitalizzare le particelle in modo veloce;
+   16. quali plugin usare per estrarre le particelle; 
+
+---   
+   
 ![](../imgs/locandine/programma.png)
