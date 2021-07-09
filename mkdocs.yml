@@ -76,7 +76,8 @@ theme:
     code: Roboto Mono
   favicon: imgs/favicon.ico
   icon:
-    logo: fontawesome/solid/book-reader
+    logo: imgs/logo.svg
+  #  logo: fontawesome/solid/book-reader
 
 plugins:
 - search
@@ -168,3 +169,4 @@ nav:
             - Contatti: contatti.md
     - HfcQGIS: "http://hfcqgis.opendatasicilia.it/"   
     - OpenDataSicilia: ods.md        
+    - Informativa privacy estesa: privacy.md   
