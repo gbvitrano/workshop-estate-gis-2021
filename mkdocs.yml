@@ -37,7 +37,7 @@ extra:
       link: ../feed_rss_created.xml
       name: Feed RSS
     - icon: fontawesome/solid/file-pdf
-      link: ../MaterialMkDocs-gb.pdf
+      link: ../Dagli_OpenData_all_OpenSource_ Lavorare_in_QGIG_con_le_mappe_catastali.pdf
       name: Scarica il file PDF
   analytics:
     provider: google
@@ -99,7 +99,7 @@ plugins:
     enumerate_figures: true
     add_cover_page: true
     cover_page_template: "docs/pdf/cover_page.tpl"
-    path_to_pdf: "MaterialMkDocs-gb.pdf"
+    path_to_pdf: "Dagli_OpenData_all_OpenSource_ Lavorare_in_QGIG_con_le_mappe_catastali.pdf"
     exclude:
     
 - rss:
