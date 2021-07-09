@@ -60,14 +60,14 @@ theme:
     - search.suggest
   palette:
     - scheme: default
-      primary: white
-      accent: orange
+      primary: green
+      accent: deep orange
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
     - scheme: slate
-      primary: black
-      accent: orange
+      primary: deep orange
+      accent: green
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
