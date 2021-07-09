@@ -11,6 +11,8 @@ Obiettivo di questo workshop è quello di evidenziare le potenzialità delle ana
 
 Workshop estate GIS 2021 UNIPD [Dagli OpenData all’OpenSource: Lavorare in QGIG con le mappe catastali](https://gbvitrano.github.io/workshop-estate-gis-2021/) con [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 
-Scarica l'intervento in formato [pdf](../Dagli_OpenData_all_OpenSource_ Lavorare_in_QGIG_con_le_mappe_catastali.pdf)
+Scarica l'intervento in formato [pdf](https://gbvitrano.github.io/workshop-estate-gis-2021/Dagli_OpenData_all_OpenSource_%20Lavorare_in_QGIG_con_le_mappe_catastali.pdf)
 
-![](./imgs/sito.png)
+[![](./imgs/sito.png)](https://squidfunk.github.io/mkdocs-material/)
+
+
