@@ -200,13 +200,13 @@ div.doc-contents:not(.first) {
     -ms-scroll-snap-type: y mandatory;
     scroll-snap-type: y mandatory;
     touch-action: pan-y;
-    text-align: left;!important;
+    text-align: left!important;
 }
 	.md-nav__list {
     list-style: none;
     margin: 0;
     padding: 0;
-    text-align: !important;
+    text-align: left!important;
 }
 /* Sfondo QGIS
 .md-main { background-image:url(../imgs/qsfondo_800.png)!important; background-repeat: no-repeat!important;  background-position: center center!important; background-size: 90%!important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important; background:  #efefef;}*/
