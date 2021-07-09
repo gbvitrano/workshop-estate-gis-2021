@@ -189,6 +189,9 @@ div.doc-contents:not(.first) {
 
 /*base icona home*/
 .svg-inline--fa.fa-stack-2x { width: 1em!important;}
+
+/*menu mobile home home*/
+@media screen and (max-width: 76.1875em) .md-nav--primary .md-nav__title~.md-nav__list { text-align: left;!important;}
 	
 /* Sfondo QGIS
 .md-main { background-image:url(../imgs/qsfondo_800.png)!important; background-repeat: no-repeat!important;  background-position: center center!important; background-size: 90%!important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important; background:  #efefef;}*/
