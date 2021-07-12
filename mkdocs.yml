@@ -168,4 +168,4 @@ nav:
             - Contatti: contatti.md
     - HfcQGIS: "http://hfcqgis.opendatasicilia.it/"   
     - OpenDataSicilia: ods.md        
-    - Informativa privacy estesa: privacy.md   
+  #  - Informativa privacy estesa: privacy.md   
